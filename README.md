@@ -34,18 +34,70 @@ Welcome to **Task_Tracker_CLI**, a command-line tool (CLI) for managing task lis
 
 ## Installation
 
-### Clone the repository
+### Option 1: Use a virtal environment (recommended)
 
-1. Clone this repository to your local machine:
+A virtual environment allows you to isolate this project's dependencies from other projects or tools installed on your system. Follow these steps to install the project in a virtual environment:
+
+1. **Clone this repository to your local machine:**
    ```bash
    git clone https://github.com/aealvarezg/Task_Tracker_CLI.git
    cd Task_Tracker_CLI
    ```
 
-2. Install the dependencies using `pip`:
+2. **Create a virtual environment:**
+   - On Linux/macOS:
+     ```bash
+     python3 -m venv venv
+     ```
+   - On Windows:
+     ```bash
+     python -m venv venv
+     ```
+
+   This will create a folder called `venv` in the project directory, which will contain the virtual environment.
+
+3. **Activate the virtual environment:**
+   - On Linux/macOS:
+     ```bash
+     source venv/bin/activate
+     ```
+   - On Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+
+   You'll know the virtual environment is active because you'll see `(venv)` at the beginning of the command line.
+
+4. **Install project dependencies:**
    ```bash
    pip install .
    ```
+
+5. **(Optional) Disable the virtual environment:**
+   When you're done working on the project, you can deactivate the virtual environment by running:
+   ```bash
+   deactivate
+   ```
+
+### Option 2: Install directly on the system (without virtual environment)
+
+If you prefer not to use a virtual environment, you can install the project directly into your global Python environment:
+
+1. **Clone this repository to your local machine:**
+   ```bash
+   git clone https://github.com/aealvarezg/Task_Tracker_CLI.git
+   cd Task_Tracker_CLI
+   ```
+
+2. **Install the project and its dependencies using `pip`:**
+   ```bash
+   pip install .
+   ```
+
+   > **Note:** If you are on an operating system like Linux or macOS, you may need to use `pip3` instead of `pip`:
+   > ```bash
+   > pip3 install .
+   > ```
 
 ---
 
