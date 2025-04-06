@@ -70,6 +70,7 @@ def mark_task_in_progress(args):
             task['updated_At'] = formated_time
             save_tasks(tasks)
             print(generate_table([[task['id'], task['description'], task['status'], task['created_At'], task['updated_At']]]))
+            return
     print(f"No task found with Id = {task_id}")
 
 # Mark a task as 'done'
