@@ -21,8 +21,8 @@ Welcome to **Task_Tracker_CLI**, a command-line tool (CLI) for managing task lis
 - **Update task**: Modify the description of an existing task.
 - **Delete task**: Remove a task by its ID.
 - **List tasks**: Display all tasks or filter by status (`todo`, `in-progress` or `done`) in a well-formatted table.
-- **Mark Task as In-Progress**: Mark a task as `in-progress` by its ID.
-- **Mark Task as Done**: Mark a task as `done` by its ID.
+- **Mark task as in-progress**: Mark a task as `in-progress` by its ID.
+- **Mark task as done**: Mark a task as `done` by its ID.
 ---
 
 ## Requirements
