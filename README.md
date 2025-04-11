@@ -2,7 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)
 
-Welcome to **Task_Tracker_CLI**, a command-line tool (CLI) for managing task lists. With this application, you can easily add, update, delete, mark (as in progress or done) and list tasks from the terminal.
+**Task_Tracker_CLI** is a command-line tool (CLI) for managing task lists. With this application, you can easily add, update, delete, mark (as in progress or done) and list tasks from the terminal.
+
+This project is inspired from the [Task Tracker Project](https://roadmap.sh/projects/task-tracker) from [Roadmap](https://www.roadmap.sh).
 
 ## Table of Contents
 
@@ -216,12 +218,8 @@ Please ensure you follow good coding practices and include tests if possible.
 
 ---
 
+---
+
 ## License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Project source
-
-This project is from [Roadmap](https://www.roadmap.sh). For more information, visit the [Task Tracker Project](https://roadmap.sh/projects/task-tracker).
