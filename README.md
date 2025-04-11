@@ -218,8 +218,10 @@ Please ensure you follow good coding practices and include tests if possible.
 
 ---
 
----
-
 ## License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+
